@@ -11,7 +11,7 @@ This project aims to develop a computer vision-based object detection system for
 Given a set of products template the algorithm aims to identify this items on the store shelves.
 The system will report the number, dimensions, and positions of each identified product.
 
-![Image Example](res\task_1_multidetection.png)
+![Image Example](res/task_1_multidetection.png)
 
 ### Proposed Solution: 
 
@@ -36,7 +36,7 @@ The project is divided into two parts:
 
 ### Dataset
 
-![Task 2 Dataset](res\assignement_2_dataset.png)
+![Task 2 Dataset](res/assignement_2_dataset.png)
 
 The dataset you contains natural images of products taken with a smartphone camera in different grocery store. It includes products belong to the following 43 classes. For more information about the dataset check the relative [GitHub repository](https://github.com/marcusklasson/GroceryStoreDataset).
 
@@ -48,7 +48,7 @@ The accompanying notebook includes a detailed study explaining every component o
 To train the CNN, we defined a training loop incorporating several key techniques: **AdamW optimizer** for adaptive learning rates and weight decay, and a training-validation process over multiple epochs. The **best model selection** is  based on the lowest validation loss, with **early stopping** to prevent overfitting. A StepLR **learning rate scheduler optimizes** training by adjusting the learning rate at specific intervals.
 
 All the other training details are explained in detail in the notebook.
-![Custom CNN Training](res\best_custom_cnn_training.png)
+![Custom CNN Training](res/best_custom_cnn_training.png)
 
 ### Part2 - Finetune of the Resnet-18
 
@@ -57,7 +57,7 @@ For efficient fine-tuning, we used the same data preprocessing specified in the 
 Thanks to this approach, we achieved a **91% accuracy** on the validation test and an 88.5% accuracy on the test set. All details related to the training are available and thoroughly described in the notebook.
 
 
-![Resnet-18 Finetuning](res\best_resnet18_training.png)
+![Resnet-18 Finetuning](res/best_resnet18_training.png)
 
 
 
