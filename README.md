@@ -1,7 +1,7 @@
-# Smart Shelves: Computer Vision-Based Product Recognition in Stores
+# Supermarket Product Identification using CV
 This project as been developed as assignements for the 2024 IPCV course
 
-The project is dividend in 2 assignment covers 2 different approach of CV for the instance detection task:
+The project is dividend in 2 assignment covers 2 different approach of Computer Vision for the instance detection task:
 - **Assignment 1**: Standard CV algoritm, use of sift keypoint
 - **Assignment 2**: Deep learning, creation of CNN and finetune of the Resnet18
 
