@@ -1,4 +1,4 @@
-# Computer-Vision-Projects
+# Smart Shelves: Computer Vision-Based Product Recognition in Stores
 This project as been developed as assignements for the 2024 IPCV course
 
 The project is dividend in 2 assignment covers 2 different approach of CV for the instance detection task:
